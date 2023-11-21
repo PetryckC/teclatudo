@@ -1,0 +1,234 @@
+
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    background-color: #000000;
+}
+nav li{
+    display: inline-block;
+    padding: 25px;
+}
+nav li a{
+    display: inline-block;
+    color: #168;
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+nav li a:hover{
+    background-color: #333;
+}
+
+.theader{
+    font-size: 35px;
+    padding: 0px;
+    position: relative;
+}
+.carrinho{
+    background-color: #000000;
+    border: #000000 solid;
+    color: #168;
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+}
+.carrinho:hover{
+    background-color: #333;
+}
+.carrinho2{
+    width: 25px;
+    height: 25px;
+    color: #168;
+}
+.botao{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: #EEEEEE;
+}
+.dropdown-menu a{
+    display: block;
+    color: #168;
+    font-size: 25px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.Container-titulo{
+    margin-left: 10%;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.titulo{
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+.produtin{
+    color: #EEEEEE;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.nos{
+    color: #EEEEEE;
+    text-align: justify;
+}
+.justo{
+    color: #EEEEEE;
+    font-size: 15px;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: #000000;
+    color: #168;
+    justify-content: space-around;    flex-direction: row;
+}
+
+.icon span{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon span:hover{
+    color: #168;
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    
+}
+.meio-contato .tfoot{
+    color: #168;
+}
+.Meio button{
+    background-color: #168;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.Meio button:hover{
+      background-color: #168F;
+      transform: scaleY(1.2);
+}
+
+section{
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.nos{
+    color: #EEEEEE;
+    font-size: 1.6rem;
+    border: 3px #168 solid;
+}
+
+.Container-produto{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin: 3%;
+    color: #168;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 20px;
+}
+
+.Container-produto img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.produto img{
+    width: 150px;
+    height: auto;
+    background-color: #EEEEEE;
+    border: #000 solid;
+    
+}
+
+.produto{
+    background-color: #168;
+    color: #000;
+    border: #000 solid;
+    width: 180px;
+    height: 220px;
+    padding-top: 5px;
+}
+
+.Marcas{
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    background-color: #168;
+}
+
+.Marcas img{
+    width: auto;
+    height: 150px;
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    color: #168;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #EEEEEE;
+}
+
+.main { display: flex; 
+    align-items: center; 
+    justify-content: center;
+}

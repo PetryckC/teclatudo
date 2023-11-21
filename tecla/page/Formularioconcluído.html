@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale=1.0 ">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>Cadastro</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    nav {
+        background-color: #000000a1;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 25px;
+    }
+
+    nav li a {
+        display: inline-block;
+        color: #168;
+        text-decoration: none;
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+
+    nav li a:hover {
+        background-color: #333;
+    }
+
+    .theader {
+        font-size: 35px;
+        padding: 0;
+        position: relative;
+    }
+
+
+
+    figure {
+        text-align: center;
+    }
+
+    img {
+        height: 100%;
+        width: 50%;
+    }
+
+    .background {
+        background-color: rgb(12, 12, 12);
+    }
+
+
+
+    form {
+        font-size: medium;
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    h2 {
+        font-size: xx-large;
+    }
+
+    p {
+        text-align: center;
+        font-size: medium;
+    }
+
+
+    .conteudo {
+        display: flex;
+        flex: 1;
+    }
+
+    .lado-a {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .lado-b {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
+    .theader {
+        font-size: 35px;
+        padding: 0;
+        position: relative;
+    }
+
+    .carrinho {
+        background-color: #000000;
+        border: #000000 solid;
+        color: #168;
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 30px;
+    }
+
+    .carrinho:hover {
+        background-color: #333;
+    }
+
+    .carrinho2 {
+        width: 25px;
+        height: 25px;
+        color: #168;
+    }
+
+    .botao {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        display: none;
+        background-color: #EEEEEE;
+    }
+
+    .dropdown-menu a {
+        display: block;
+        color: #168;
+        font-size: 25px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .Opcoes {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #168;
+    }
+
+    .Filtro {
+        color: #168;
+    }
+
+    .Container-produto {
+        display: flex;
+        border: groove;
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        flex-wrap: wrap;
+        justify-content: end;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+        color: #168;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .memoria1 {
+        align-items: auto;
+        text-align: center;
+    }
+
+    .produtos {
+        border: groove;
+        height: 300px;
+        width: 300px;
+    }
+
+    h1,
+    h2,
+    l2 {
+        color: rgb(18, 139, 187);
+    }
+
+    #Contato {
+        display: flex;
+        gap: 5rem;
+        justify-content: space-around;
+        background-color: #111;
+        color: #168;
+        padding: 8rem;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    }
+
+    .meio-contato h3 {
+        color: #fff;
+        font-size: 23px;
+        margin-bottom: 1.6rem;
+    }
+
+    .meio-contato h5 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #EEEEEE;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .meio-contato .tfoot {
+        color: #168;
+    }
+</style>
+
+<body class="background">
+    <header>
+        <nav class="theader">
+            <ul class="theader">
+                <li>
+                    <a href="../teclatudo.html">Inicio</a>
+                </li>
+                <li class="dropdown">
+                    <a>Produtos</a>
+                    <div class="dropdown-menu">
+                        <a href="memoriaram.html">Memória Ram</a>
+                        <a href="mouse.html">Mouse</a>
+                        <a href="placadevideo.html">Placa de video</a>
+                        <a href="teclados.html">Teclado</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="Quemsomos.html">Quem somos</a>
+                </li>
+                <li>
+                    <a href="Formulario.html">Cadastre-se</a>
+                </li>
+                <button class="carrinho"><a href="page/mouse.html"><ion-icon class="carrinho2"
+                            name="cart-outline"></ion-icon></a></button>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+
+    <body>
+
+        <body class="background">
+            <br><br><br><br><br><br><br>
+            <td>
+                <h1>
+                    <l1><i>SEU FORMULÁRIO FOI CADASTRADO COM SUCESSO!</i></l1>
+                </h1>
+            </td>
+            <br>
+            <h4 style="color: #169">
+                <p align="center"><i>VOCÊ PODE ACESSAR TODAS AS PÁGINAS UTILIZANDO O MENU</p></i>
+            </h4>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            </fieldset>
+            </form>
+            <br><br><br><br><br><br><br>
+            <section class="Contato" id="Contato">
+                <div class="meio-contato">
+                    <h3 class="tfoot">Teclatudo</h3>
+                    <h5 class="tfoot">Departamentos</h5>
+                    <div class="icons">
+                        <p><a href="memoriaram.html"><i class="tfoot">Memória Ram</i></a></p>
+                        <p><a href="mouse.html"><i class="tfoot">Mouse</i></a></p>
+                        <p><a href="placadevideo.html"><i class="tfoot">Placa de Vídeo</i></a></p>
+                        <p><a href="teclados.html"><i class="tfoot">Teclado</i></a></p>
+                    </div>
+                </div>
+                <div class="meio-contato">
+                    <h3 class="tfoot">Contatos</h3>
+                    <p><a href="#"><i class="tfoot">Quem somos</i></a></p>
+                    <p><i class=>Fale conosco</i></p>
+                    <p>Telefone: 0800 030 0200</p>
+                    <br>
+                    <p>Endereço: R. Cobre, 200 - Cruzeiro, Belo Horizonte - MG, 30310-150</p>
+                </div>
+
+                <div class="meio-contato">
+                    <h3 class="tfoot">Explore mais Projetos</h3>
+                    <p><a href="https://github.com/VianaDavi" target="_blank"><i class="tfoot">Github Davi</i></a></p>
+                    <p><a href="https://github.com/PetryckC" target="_blank"><i class="tfoot">Github Petryck</i></a></p>
+                    <p><a href="https://github.com/RafoSanches" target="_blank"> <i class="tfoot">Github Rafael</i></a>
+                    </p>
+                </div>
+
+                <div class="meio-contato">
+                    <h3 class="tfoot">Parceiros</h3>
+                    <section class="tfoot">
+                        <li><a class="tfoot" href="https://www.redragon.com.br/" target="_blank">Red Dragon</a></li>
+                        <li><a class="tfoot" href="https://www.logitech.com/pt-br" target="_blank">Logitech</a></li>
+                        <li><a class="tfoot" href="https://www.nvidia.com/pt-br/ " target="_blank">Nvidia</a></li>
+                        <li><a class="tfoot" href="https://www.kingston.com/br" target="_blank">Kingston</a></li>
+                    </section>
+                </div>
+
+            </section>
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="js/script.js"></script>
+        </body>
+
+</html>
